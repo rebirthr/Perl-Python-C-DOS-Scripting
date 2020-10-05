@@ -5,12 +5,13 @@ use Socket;
 use strict;
 
 print '
- _   _ ____  ____    _____ _     ___   ___  ____  
-| | | |  _ \|  _ \  |  ___| |   / _ \ / _ \|  _ \ 
-| | | | | | | |_) | | |_  | |  | | | | | | | | | |
-| |_| | |_| |  __/  |  _| | |__| |_| | |_| | |_| |
- \___/|____/|_|     |_|   |_____\___/ \___/|____/         
+
 ';
+
+╭━┳┳━┳━━╮╭━━┳━┳━━┳━┳━━╮
+┃┃┃┃╋┃╭━┫╰╮╭┫╋┃╭╮┃╋┃━━┫
+┃┃┃┃╮┫╰╮┃╱┃┃┃╮┫┣┫┃╭╋━━┃
+╰┻━┻┻┻━━╯╱╰╯╰┻┻╯╰┻╯╰━━╯
 print "\n";
  
 if ($#ARGV != 3) {
@@ -32,11 +33,11 @@ socket(flood, PF_INET, SOCK_DGRAM, 17);
 
  
 print "==================================================\n";
-print ".....SUCCESS: COMMAND HAS BEEN SENT TO SERVER.....\n";
+print ".....SUCCESS: NRG Traps Is Now Fucking Ur SERVER.....\n";
 print "==================================================\n\n";
 print " | IP: $ip | PORT: $port | TIME: $time |\n\n";
 print "==================================================\n";
-print ".....PRESS CTRL-C TO STOP ANY RUNNING ATTACKS.....\n";
+print ".....PRESS CTRL-C TO STOP ANY Attacks NRG~Traps.....\n";
 print "==================================================\n\n";
 print "To cancel the attack press 'Ctrl-C'\n" unless $time;
  
