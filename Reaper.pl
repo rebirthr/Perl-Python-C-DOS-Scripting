@@ -20,7 +20,7 @@ print <<EOTEXT;
 
 
                ...
-             ;::::;				MemeCFW Reaper Script
+             ;::::;				Rebirthruns Reaper Script
            ;::::; :;
          ;:::::'   :;
         ;:::::;     ;.
